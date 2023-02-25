@@ -1,6 +1,6 @@
 package javapractice;
 
-public class MathExample {
+public class MathExample2 {
 	public static void main(String[] args) {
 		System.out.println("-5の絶対値は" + Math.abs(-5));
 		System.out.println("3.0の平方根は" + Math.sqrt(3.0));
