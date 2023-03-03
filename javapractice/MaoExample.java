@@ -6,7 +6,7 @@ public class MaoExample {
 	public static void main(String[] args) {
 		HashMap<String, String> map = new HashMap<String, String>();
 
-		map.put("fitst name", "太郎");
+		map.put("first name", "太郎");
 		map.put("last name", "山田");
 		map.put("address", "茨城県つくば市 999-99-999");
 		map.put("tel", "029-000-0000");
