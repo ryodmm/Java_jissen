@@ -10,13 +10,18 @@ public class practiceP121 {
 		for (String str : list) {
 			System.out.println(str);
 		}
-		
+
 		LinkedList<String> list2 = new LinkedList<>();
 		Iterator<String> it = list2.iterator();
 		while (it.hasNext()) {
 			String str = it.next();
 			System.out.println(str);
 		}
+		/*　Iteretor答え↓
+		Iterator<String> it;
+		while (it.hasNext()) {
+			System.out.println(it.hasNext());
+		*/
 	}
 
 }
