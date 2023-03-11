@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class FileWriteExample {
 	public static void main(String[] args) {
@@ -12,11 +13,11 @@ public class FileWriteExample {
 
 			FileWriter fw = new FileWriter(file);
 			BufferedWriter bw = new BufferedWriter(fw);
+			PrintWriter pw = new PrintWriter(bw);
 			for (int i = 0; i < 6; i++) {
-				bw.write("[" + i + "]");
-				bw.newLine();
+				pw.write("[" + i + "]");
 			}
-			bw.close();
+			pw.close();
 		} catch (IOException e) {
 			System.out.println(e);
 		}
